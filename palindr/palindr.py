@@ -4,6 +4,7 @@ def palindr(slovo):
             return False
     print(slovo)
     return True
+
 vvod = str(input())
 str_start = 0
 str_end = 0
@@ -18,5 +19,3 @@ for i in range(0,len(vvod)):
                 counter +=1
         str_start = str_end + 1
 print ("палиндромов",counter)
-
-
