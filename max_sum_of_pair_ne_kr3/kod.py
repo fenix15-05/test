@@ -31,4 +31,4 @@ for i in range(len(minofpair)):
         #print(summa-minofpair[i])
         break
 
-
+file.close()
